@@ -1,0 +1,414 @@
+/****************************************************************************/
+/*                                  COLORS                                  */
+/****************************************************************************/
+
+.primary {
+  background-color: #ABD8FC;
+}
+
+.text-primary {
+  color: #ABD8FC; 
+}
+
+.secondary {
+  background-color: #EFD6AB;
+}
+
+.text-secondary {
+  color: #EFD6AB; 
+}
+
+.dark {
+  background-color: #7C7B7C;
+}
+
+.text-dark {
+  color: #7C7B7C; 
+}
+
+.medium-light {
+  background-color: #A7A49F;
+}
+
+.text-medium-light {
+  color: #A7A49F; 
+}
+
+.light {
+  background-color: #C4C1BD;
+}
+
+.text-light {
+  color: #C4C1BD; 
+}
+
+/****************************************************************************/
+/*                               TYPOGRAPHY                                 */
+/****************************************************************************/
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'salomeregular';
+}
+
+p {
+  font-family: "Sometype Mono";
+  font-size: 16px;
+  text-align: justify;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: left;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h3, h4, h5, h6 {
+  text-align: center;
+}
+
+b {
+  font-family: "Sometype Mono";
+  font-style: bold;
+  font-size: 16px;
+}
+
+blockquote {
+  font-family: "Sometype Mono";
+  font-style: italic;
+  font-size: 16px;
+}
+
+ul, ol, li {
+  font-family: 'Sometype Mono';
+  font-size: 16px;
+}
+
+@font-face {
+    font-family: 'salomeregular';
+    src: url('fonts/salome/salome-webfont.eot');
+    src: url('fonts/salome/salome-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/salome/salome-webfont.woff2') format('woff2'),
+         url('fonts/salome/salome-webfont.woff') format('woff'),
+         url('fonts/salome/salome-webfont.ttf') format('truetype'),
+         url('fonts/salome/salome-webfont.svg#salomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family:'Sometype Mono';
+  font-style: normal;
+  font-weight: 400;
+  src:url('fonts/sometypemono/SometypeMono-Regular.woff2') format('woff2'),
+    url('fonts/sometypemono/SometypeMono-Regular.woff') format('woff'),
+    url('fonts/sometypemono/SometypeMono-Regular.ttf') format('truetype'),
+    url('fonts/sometypemono/SometypeMono-Regular.otf') format('opentype'),
+    url('fonts/sometypemono/SometypeMono-Regular.eot') format('embedded-opentype');    
+}
+
+@font-face { 
+  font-family:'Sometype Mono';
+  font-style: italic;
+  font-weight: 400;
+  src:  url('fonts/sometypemono/SometypeMono-RegularItalic.woff2') format('woff2'),
+    url('fonts/sometypemono/SometypeMono-RegularItalic.woff') format('woff'),
+    url('fonts/sometypemono/SometypeMono-RegularItalic.ttf') format('truetype'),
+    url('fonts/sometypemono/SometypeMono-RegularItalic.otf') format('opentype'),
+    url('fonts/sometypemono/SometypeMono-RegularItalic.eot') format('embedded-opentype');  
+}
+
+@font-face {
+  font-family:'Sometype Mono';
+  font-style: normal;
+  font-weight: 700;
+  src:  url('fonts/sometypemono/SometypeMono-Bold.woff2') format('woff2'),
+    url('fonts/sometypemono/SometypeMono-Bold.woff') format('woff'),
+    url('fonts/sometypemono/SometypeMono-Bold.ttf') format('truetype'),
+    url('fonts/sometypemono/SometypeMono-Bold.otf') format('opentype'),
+    url('fonts/sometypemono/SometypeMono-Bold.eot') format('embedded-opentype');   
+}
+
+/****************************************************************************/
+/*                                  BUTTONS                                 */
+/****************************************************************************/
+
+.buttons {
+    text-align: center;
+}
+
+/************************/
+/*        SMALL         */
+/************************/
+
+.btn-sm {
+    width: 90px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 10px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-sm:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-sm:focus {
+    outline: none;
+}
+
+.btn-sm.primary {
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 3px 15px 0 rgba(65, 132, 234, 0.75);
+}
+.btn-sm.danger {
+    background-image: linear-gradient(to right, #f15e64, #eb3941, #e14e53, #C42F36);
+    box-shadow: 0 3px 15px rgba(238, 82, 83,1.0);
+}
+.btn-sm.warning{
+    background-image: linear-gradient(to right, #F6B752, #f1c40f, #F4D450, #f39c12);
+    box-shadow: 0 3px 15px 0 rgba(255, 159, 67,1.0)
+}
+.btn-sm.info {
+    background-image: linear-gradient(to right, #81ecec, #00cec9, #74b9ff, #0984e3);
+    box-shadow: 0 3px 15px 0 rgba(10, 189, 227,1.0);
+}
+.btn-sm.success {
+    background-image: linear-gradient(to right, #6ab04c, #00C479, #00B894, #55efc4);
+    box-shadow: 0 3px 15px 0 rgba(16, 172, 132,1.0);
+}
+
+/************************/
+/*       MEDIUMS        */
+/************************/
+
+.btn {
+    width: 90px;
+    height: 80px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn.primary {
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 3px 15px 0 rgba(65, 132, 234, 0.75);
+}
+.btn.danger {
+    background-image: linear-gradient(to right, #f15e64, #eb3941, #e14e53, #C42F36);
+    box-shadow: 0 3px 15px rgba(238, 82, 83,1.0);
+}
+.btn.warning{
+    background-image: linear-gradient(to right, #F6B752, #f1c40f, #F4D450, #f39c12);
+    box-shadow: 0 3px 15px 0 rgba(255, 159, 67,1.0)
+}
+.btn.info {
+    background-image: linear-gradient(to right, #81ecec, #00cec9, #74b9ff, #0984e3);
+    box-shadow: 0 3px 15px 0 rgba(10, 189, 227,1.0);
+}
+.btn.success {
+    background-image: linear-gradient(to right, #6ab04c, #00C479, #00B894, #55efc4);
+    box-shadow: 0 3px 15px 0 rgba(16, 172, 132,1.0);
+}
+
+/************************/
+/*       OUTLINE        */
+/************************/
+
+.btn-outline {
+    width: 90px;
+    height: 80px;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid;
+    background-color: white;
+    background-size: 300% 100%;
+    border-radius: 50px;
+}
+
+.btn-outline:hover {
+    background-position: 100% 0;
+}
+
+.btn-outline:focus {
+    outline: none;
+}
+
+.btn-outline.primary {
+  border-color: #4481eb;
+  color: #4481eb;
+}
+
+.btn-outline.primary:hover {
+  background-color: #4481eb;
+  color: white;
+  box-shadow: 0 1px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+.btn-outline.danger {
+  border-color: #e14e53;
+  color: #e14e53;
+}
+
+.btn-outline.danger:hover {
+  background-color: #e14e53;
+  color: white;
+  box-shadow: 0 1px 15px 0 rgba(238, 82, 83,1.0);
+}
+
+.btn-outline.warning {
+  border-color: #f39c12;
+  color: #f39c12;
+}
+
+.btn-outline.warning:hover {
+  background-color: #f39c12;
+  color: white;
+  box-shadow: 0 1px 15px 0 rgba(255, 159, 67,1.0);
+}
+
+.btn-outline.info {
+  border-color: #74b9ff;
+  color: #74b9ff;
+}
+
+.btn-outline.info:hover {
+  background-color: #74b9ff;
+  color: white;
+  box-shadow: 0 1px 15px 0 rgba(10, 189, 227,1.0);
+}
+
+.btn-outline.success {
+  border-color: #00C479;
+  color: #00C479;
+}
+
+.btn-outline.success:hover {
+  background-color: #00C479;
+  color: white;
+  box-shadow: 0 1px 15px 0 rgba(16, 172, 132,1.0);
+}
+
+
+/************************/
+/*       LARGES         */
+/************************/
+
+.btn-lg {
+    width: 200px;
+    height: 55px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-lg:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-lg:focus {
+    outline: none;
+}
+
+.btn-lg.primary {
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 3px 15px 0 rgba(65, 132, 234, 0.75);
+}
+.btn-lg.danger {
+    background-image: linear-gradient(to right, #f15e64, #eb3941, #e14e53, #C42F36);
+    box-shadow: 0 3px 15px rgba(238, 82, 83,1.0);
+}
+.btn-lg.warning{
+    background-image: linear-gradient(to right, #F6B752, #f1c40f, #F4D450, #f39c12);
+    box-shadow: 0 3px 15px 0 rgba(255, 159, 67,1.0)
+}
+.btn-lg.info {
+    background-image: linear-gradient(to right, #81ecec, #00cec9, #74b9ff, #0984e3);
+    box-shadow: 0 3px 15px 0 rgba(10, 189, 227,1.0);
+}
+.btn-lg.success {
+    background-image: linear-gradient(to right, #6ab04c, #00C479, #00B894, #55efc4);
+    box-shadow: 0 3px 15px 0 rgba(16, 172, 132,1.0);
+}
+
+/****************************************************************************/
+/*                                   ICONS                                  */
+/****************************************************************************/
+
+.primary {
+  fill: #A5B3BB; }
+
+.secondary {
+  fill: #0D2B3E; }
+
+.icons {
+  text-align: center;
+}
+
+/****************************************************************************/
+/*                                   ICONS                                  */
+/****************************************************************************/
+
