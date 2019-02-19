@@ -67,7 +67,7 @@ p {
 h1 {
   font-size: 60px;
   text-align: center;
-  color: #4F4F4F;
+  color: rgba(16, 172, 132,1.0);
 }
 
 h2 {

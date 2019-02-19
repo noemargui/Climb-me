@@ -1,24 +1,10 @@
-# README
+# Welcome to *Climb-me*!
+Let me introduce you to my fresh new UI kit for *Climb-me*, a social network based on the shared **passion of climbing**.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+# Files
 
-* Ruby version
+You will find an index.html, accessible **offline** ( + its style.css file).
+But you'll also find an **online** version on https://climb-me.herokuapp.com/
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+**Made with ♥ by Noé**
