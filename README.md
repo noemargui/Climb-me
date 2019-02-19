@@ -5,6 +5,6 @@ Let me introduce you to my fresh new UI kit for *Climb-me*, a social network bas
 # Files
 
 You will find an index.html, accessible **offline** ( + its style.css file).
-But you'll also find an **online** version on https://climb-me.herokuapp.com/
+But you'll also find an **online** version on https://climb-me.surge.sh/
 
 **Made with ♥ by Noé**
